@@ -13,7 +13,9 @@ body{
 .heroImage{
 
   background-image: url("img/cover.jpg");
-  height:678px;
+  /* height:678px; */
+  background-size: cover;
+  /* height: 600px; */
   border-radius: 0;
   background-size: cover;
   padding: 200px;
@@ -26,6 +28,14 @@ body{
 
 .move{
   margin: 20px;
+}
+
+
+.cards {
+
+  /* float: left; */
+  margin:auto;
+
 }
 
 .footer-height{
