@@ -13,12 +13,13 @@ body{
 .heroImage{
 
   background-image: url("img/cover.jpg");
-  /* height:678px; */
+  height:750px;
   background-size: cover;
   /* height: 600px; */
   border-radius: 0;
   background-size: cover;
-  padding: 200px;
+  /* padding: 200px; */
+  /* margin-bottom: 200px; */
 }
 
 .title{
@@ -59,11 +60,6 @@ hr{
   background-color: white;
 }
 
-.card1{
-
-  width: 450px;
-  margin: auto;
-}
 
 
 .container2{
