@@ -100,39 +100,25 @@ hr {
 
 .toOne,.toTwo,.toThree,.toFour,.toFive,.toSix,.toSeven,.toEight {
   text-align: center;
+  margin: 10px;
 }
 
-.collection1 {
 
-  margin: 0 auto;
-  width:1150px;
-  height:600px;
-  border: none;
+.section {
+
+  width: auto;
+  height: auto;
+  margin: auto;
 }
 
-.midSommer1,.midSommer2{
+.midSommer1,.midSommer2,.midSommer3 {
 
+  width: 80%;
   width: 350px;
-  float: left;
-  margin: 60px 50px 0 0;
-  /* border: solid 1px white; */
+  margin: 30px 0 ;
+  /* float: left; */
 }
 
-.midSommer3{
-
-  width: 350px;
-  float: left;
-  margin-top: 60px
-  /* border: solid 1px white; */
-}
-
-.collection2 {
-  margin: 0 auto;
-  width:900px;
-  height:600px;
-  border: none;
-
-}
 
 .holiday1 {
 
@@ -156,44 +142,22 @@ hr {
   float: left;
 }
 
-.collection3 {
-  margin: 0 auto;
-  width:1100px;
-  height:900px;
-  border: none;
-}
 
 .album {
 
   width:1100px;
+  width: 80%;
   margin-top: 60px;
-}
-
-.collection4 {
-  margin: 0 auto;
-  width:760px;
-  height:600px;
-  border: none;
 }
 
 .social1,.social2 {
 
+  width: 80%;
   width: 350px;
-  float: left;
-  margin-top: 60px;
+  margin: 30px 0 ;
 
 }
 
-.social2 {
-  margin-left: 60px;
-}
-
-.collection5 {
-  margin: 0 auto;
-  width:500px;
-  height:1400px;
-  border: none;
-}
 
 .playbill1 {
 
