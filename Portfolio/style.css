@@ -144,9 +144,9 @@ hr {
 
 
 .album {
+   width: 80%;
+  /* width:1100px; */
 
-  width:1100px;
-  width: 80%;
   margin-top: 60px;
 }
 
@@ -161,70 +161,53 @@ hr {
 
 .playbill1 {
 
-  width:500px;
+  width:450px;
   margin-top: 60px;
 }
 
 .playbill2 {
 
-  width: 500px;
+  width: 450px;
 }
 
-.collection6 {
-  margin: 0 auto;
-  width:1200px;
-  height:650px;
-  border: none;
-}
+
 
 .brand {
 
-  width: 1200px;
+  width: 90%;
   margin-top: 60px;
 }
 
-.collection7 {
-  margin: 0 auto;
-  width:1400px;
-  height:4050px;
-  border: none;
-}
 
 .final1 {
 
-  width: 900px;
+  width: 75%;
   margin-top: 60px;
 }
 
 .final2 {
 
-  width: 1300px;
-  margin: 60px;
+  width: 95%;
+  margin: 60px 0;
 }
 
 .final3,.final4,.final5,.final6,.final7 {
 
-  width: 700px;
+  width: 65%;
   /* float: left; */
   margin: 0 0 60px 0 ;
 }
 
-.collection8 {
-  margin: 0 auto;
-  width:1200px;
-  height:1800px;
-  border: none;
-}
 
 .wall1 {
 
-  width: 600px;
+  width: 400px;
   margin: 60px 0 30px 0;
 }
 
 .wall2,.wall3,.wall4,.wall5,.wall6,.wall7,.wall8,.wall9,.wall10 {
 
-  width: 280px;
+  width: 200px;
   margin: 10px;
   float: left;
 }
