@@ -5,7 +5,6 @@ body{
 
   background-image: url(img/stonebackground.png);
   font-family: monospace ;
-  /* font-family: 'Work Sans', sans-serif; */
   color: #777777;
   letter-spacing: 1px;
 }
@@ -15,11 +14,9 @@ body{
   background-image: url("img/cover.jpg");
   height:750px;
   background-size: cover;
-  /* height: 600px; */
+  background-position: center;
   border-radius: 0;
   background-size: cover;
-  /* padding: 200px; */
-  /* margin-bottom: 200px; */
 }
 
 .title{

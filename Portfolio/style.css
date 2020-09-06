@@ -1,6 +1,5 @@
 
 
-
 body{
 
   background-image: url(img/cover.jpg);
@@ -32,54 +31,59 @@ hr {
 
 }
 
+.navMother {
+  position: absolute;
+  top:5px;
+  right:5px;
+}
+
 .nav {
 
-  padding: 30px;
+  /* padding: 30px; */
 
   width: 100%;
   height: 85px;
 
   /* background-color: black; */
   position: fixed;
+  right: 0
 }
 
 .nav2 {
 
-
-  position:absolute;
+  position: absolute;
   right:0px;
   margin-right: 30px;
+  margin-top: 0;
 }
 
 .option {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
-.mainLeft {
+/* .mainLeft {
 
-  /* margin-left: 40px; */
   margin-top:30px;
 
   width: 30%;
   height: 750px;
-  /* background-color: gray; */
   float: left;
-}
+} */
 
 .menu {
 
   margin-left: 30px;
+  margin-top: 90px;
 }
 
-.mainRight {
+/* .mainRight {
 
   width: 70%;
   height: 750px;
   text-align: right;
   padding: 100px;
-  /* background-color: white; */
   float:left;
-}
+} */
 
 .flower {
 
@@ -89,7 +93,10 @@ hr {
 
 .word {
 
-  margin-top: 300px;
+  margin-top: 150px;
+  text-align:center;
+  float: right;
+  padding-right: 5%;
 }
 
 .downArea {
@@ -116,100 +123,186 @@ hr {
 .midSommer1,.midSommer2,.midSommer3 {
 
   width: 80%;
-  width: 350px;
   margin: 30px 0 ;
   /* float: left; */
 }
 
+@media only screen and (min-width: 400px) {
 
-.holiday1 {
+  .midSommer1,.midSommer2,.midSommer3 {
 
-  width:350px;
-  margin: 60px 15px 0 0;
-  float: left;
+    width: 35%;
+    margin: 30px 0 ;
+    /* float: left; */
+  }
 }
+
+
+
 
 .holiday {
-  float: left;
-  width:215px;
-  height:495px;
-  margin-left: 40px;
-  margin-top: 60px;
+  width:105%;
+  margin: 30px 0 ;
+}
+@media only screen and (min-width: 400px) {
+
+  .holiday {
+    width:80%;
+    margin: 30px 0 ;
+  }
 }
 
-.holiday2,.holiday3,.holiday4,.holiday5,.holiday6 {
 
-  width:215px;
-  margin: 0 30px 20px 0;
-  float: left;
-}
+
 
 
 .album {
-   width: 80%;
+   width: 100%;
   /* width:1100px; */
 
   margin-top: 60px;
 }
 
+
+
+@media only screen and (min-width: 400px) {
+
+  .album {
+    width:80%;
+  }
+}
+
+
+
 .social1,.social2 {
 
   width: 80%;
-  width: 350px;
   margin: 30px 0 ;
 
 }
 
 
+@media only screen and (min-width: 400px) {
+
+  .social1,.social2 {
+    width: 35%;
+    margin: 30px 0 ;
+  }
+}
+
+
 .playbill1 {
 
-  width:400px;
+  width:95%;
   margin-top: 60px;
 }
 
 .playbill2 {
 
-  width: 40px;
+  width: 95%;
+}
+
+
+@media only screen and (min-width: 400px) {
+
+  .playbill1 {
+
+    width:50%;
+    margin-top: 60px;
+  }
+
+  .playbill2 {
+
+    width: 50%;
+  }
 }
 
 
 
 .brand {
 
-  width: 90%;
+  width: 105%;
   margin-top: 60px;
+}
+
+
+@media only screen and (min-width: 400px) {
+
+  .brand {
+    width: 90%;
+    margin-top: 60px;
+  }
 }
 
 
 .final1 {
 
-  width: 75%;
+  width: 90%;
   margin-top: 60px;
 }
 
 .final2 {
 
-  width: 95%;
+  width: 105%;
   margin: 60px 0;
 }
 
 .final3,.final4,.final5,.final6,.final7 {
 
-  width: 65%;
+  width: 80%;
   /* float: left; */
   margin: 0 0 60px 0 ;
+}
+
+@media only screen and (min-width: 400px) {
+
+  .final1 {
+
+    width: 75%;
+    margin-top: 60px;
+  }
+
+  .final2 {
+
+    width: 90%;
+    margin: 60px 0;
+  }
+
+  .final3,.final4,.final5,.final6,.final7 {
+
+    width: 60%;
+    /* float: left; */
+    margin: 0 0 60px 0 ;
+  }
 }
 
 
 .wall1 {
 
-  width: 400px;
+  width: 70%;
   margin: 60px 0 30px 0;
 }
 
 .wall2,.wall3,.wall4,.wall5,.wall6,.wall7,.wall8,.wall9,.wall10 {
 
-  width: 200px;
+  width: 40%;
   margin: 10px;
   float: left;
+}
+
+
+@media only screen and (min-width: 400px) {
+
+  .wall1 {
+
+    width: 35%;
+    margin: 60px 0 30px 0;
+  }
+
+  .wall2,.wall3,.wall4,.wall5,.wall6,.wall7,.wall8,.wall9,.wall10 {
+
+    width: 20%;
+    margin: 10px;
+    float: left;
+  }
 }
